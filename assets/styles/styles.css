@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+* {
+  font-family: 'Roboto', sans-serif;
+  line-height: 16px;
+  color: #fff;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: 100%;
+  background: #002752;
+  height: 1000px;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+.top-nav {
+  width: 100%;
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  vertical-align: middle;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding-top: 25px;
+}
+
+.top-nav .social-icons i {
+  padding: 0 10px;
+  color: #fff;
+}
+
+.top-nav .contact-details {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #fff;
+  width: 450px;
+}
+
+.top-nav .contact-details .mobile, .top-nav .contact-details .gmail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-nav .contact-details .mobile i, .top-nav .contact-details .gmail i {
+  padding-right: 7px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.header .logo a {
+  font-size: 1.5em;
+}
+
+.header nav {
+  width: 600px;
+}
+
+.header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+
+.header nav ul li a::after {
+  content: '/';
+  position: relative;
+  left: 40%;
+}
+
+.header nav ul .last::after {
+  content: "";
+}
+
+.showcase {
+  width: 100%;
+  height: 850px;
+}
+
+.showcase div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.showcase div h1 {
+  position: relative;
+  font-size: 20px;
+  top: 35px;
+}
+
+.showcase div p {
+  font-size: 82px;
+  font-weight: bolder;
+}
+
+.showcase .buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.showcase .buttons .c-projects {
+  position: relative;
+  top: 140px;
+  left: 150px;
+}
+
+.showcase .buttons .s-customers {
+  position: relative;
+  top: 140px;
+  left: 180px;
+}
+
+.showcase .buttons div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  width: 328px;
+  height: 85px;
+}
+
+.showcase .buttons p {
+  font-size: 45px;
+}
+
+.showcase .buttons span {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.showcase h3::before {
+  content: "";
+  width: 130px;
+  height: 2px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: -22%;
+}
+
+.showcase h3 {
+  position: relative;
+  top: 80px;
+  left: 150px;
+}
+
+.services {
+  width: 100%;
+  height: 884px;
+  padding: 80px;
+}
+
+.services p {
+  text-align: center;
+  color: #002752;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.services h2 {
+  font-size: 54px;
+  color: #002752;
+  text-align: center;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=styles.css.map */
